@@ -1,20 +1,21 @@
-@charset "UTF-8";/*!
- * animate.css - https://animate.style/
- * Version - 4.1.1
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2020 Animate.css
- */
 
-/*USER DEFINED*/
 
 *{
   margin: 10px;
   padding: 5px;
   font-family: sans-serif;
   font-weight: lighter;
- 
-  
+  color:black; 
+}
+
+.references span{
+ font-size: 42px;
+ color: turquoise;
+}
+
+.material-icons{
+  color: turquoise;
+
 }
   .centered img {
     width: 200px;
@@ -37,12 +38,15 @@
   text-align:center;
   background-image: url(bcimg.png);
   background-size: cover;
+  
+  
  
  
 }
 .contact,.professionalsummary, .education, .references, .workexperience, .addinformation {
  
   background: linear-gradient(to left,rgb(192, 230, 231),whitesmoke);
+  
 
   
   
